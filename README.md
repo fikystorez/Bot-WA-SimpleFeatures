@@ -76,7 +76,7 @@ cd Bot-WA-SimpleFeatures
 **2. Install Dependencies**
 Pastikan kamu berada di dalam folder `Bot-WA-SimpleFeatures`, lalu jalankan:
 ```bash
-npm install
+apt install npm
 ```
 
 **3. Konfigurasi Bot**
