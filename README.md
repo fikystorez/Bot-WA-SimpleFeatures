@@ -59,7 +59,7 @@ Pastikan *environment* server atau perangkat kamu sudah memenuhi syarat berikut 
 * **Node.js**: Versi `16.x` atau lebih baru.
 * **FFmpeg**: Wajib diinstal untuk fitur konversi media (seperti `.tovn`).
 * **Git**: Untuk melakukan *clone repository*.
-* **Sistem Operasi**: Disarankan menggunakan **Ubuntu 20.04** untuk *deployment* server, karena sangat stabil untuk menahan operasional bot 24/7 dan menjalankan proses *tunneling* tanpa kendala.
+* **Sistem Operasi**: Disarankan menggunakan **Ubuntu 20.04** untuk *deployment* server, karena sangat stabil untuk menahan operasional bot 24/7 dan menjalankan proses
 
 ---
 
