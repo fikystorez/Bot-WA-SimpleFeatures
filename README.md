@@ -69,7 +69,7 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan bot dari rep
 
 **1. Clone Repository**
 ```bash
-git clone [https://github.com/fikystorez/Bot-WA-SimpleFeatures.git](https://github.com/fikystorez/Bot-WA-SimpleFeatures.git)
+git clone https://github.com/fikystorez/Bot-WA-SimpleFeatures.git
 cd Bot-WA-SimpleFeatures
 ```
 
