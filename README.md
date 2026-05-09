@@ -1,7 +1,3 @@
-<div align="center">
-
-<img src="https://telegra.ph/file/0b32e0a0bb07584f92700.png" alt="Bot Logo" width="150" />
-
 # 🤖 WhatsApp Bot by Digital Fiky Store
 
 > _Bot WhatsApp Multi-Fungsi yang elegan, cepat, dan mudah digunakan untuk manajemen grup serta utilitas harian._
