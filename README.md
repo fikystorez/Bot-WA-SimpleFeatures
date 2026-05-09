@@ -79,15 +79,7 @@ Pastikan kamu berada di dalam folder `Bot-WA-SimpleFeatures`, lalu jalankan:
 apt install npm
 ```
 
-**3. Konfigurasi Bot**
-Buka file konfigurasi yang tersedia di dalam folder (biasanya `config.js`, `settings.json`, atau `.env`) lalu sesuaikan pengaturan seperti nomor Owner:
-```javascript
-// Contoh jika pengaturannya ada di dalam file JS/JSON
-global.owner = ['628xxxxxxxxxx'] // Ganti dengan nomor WhatsApp kamu
-global.botName = 'Bot DFS'
-```
-
-**4. Jalankan Bot**
+**3. Jalankan Bot**
 Setelah semua proses selesai, jalankan bot dengan perintah:
 ```bash
 npm start
