@@ -6,7 +6,7 @@
 
 > _Bot WhatsApp Multi-Fungsi yang elegan, cepat, dan mudah digunakan untuk manajemen grup serta utilitas harian._
 
-![NodeJS](https://img.shields.io/badge/Node.js-v16.x%20or%20higher-green?style=for-the-badge&logo=node.js)
+![NodeJS](https://img.shields.io/badge/Node.js-v20.x%20or%20higher-green?style=for-the-badge&logo=node.js)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
@@ -56,10 +56,17 @@ Bot ini dikembangkan khusus untuk mempermudah ekosistem grup WhatsApp. Dilengkap
 
 Pastikan *environment* server atau perangkat kamu sudah memenuhi syarat berikut sebelum melakukan instalasi:
 
-* **Node.js**: Versi `16.x` atau lebih baru.
+* **Node.js**: **Wajib versi `20.x` atau lebih baru.** *(Library Baileys terbaru tidak mendukung Node.js 18 ke bawah).*
 * **FFmpeg**: Wajib diinstal untuk fitur konversi media (seperti `.tovn`).
 * **Git**: Untuk melakukan *clone repository*.
-* **Sistem Operasi**: Disarankan menggunakan **Ubuntu 20.04** untuk *deployment* server, karena sangat stabil untuk menahan operasional bot 24/7 dan menjalankan proses
+* **Sistem Operasi**: Disarankan menggunakan **Ubuntu 20.04** untuk *deployment* server, karena sangat stabil untuk menahan operasional bot 24/7 dan menjalankan proses 
+
+> **💡 Catatan untuk Pengguna Ubuntu:**
+> Jika versi Node.js kamu masih di bawah 20, silakan *upgrade* terlebih dahulu dengan menjalankan perintah ini di terminal:
+> ```bash
+> curl -fsSL [https://deb.nodesource.com/setup_20.x](https://deb.nodesource.com/setup_20.x) | sudo -E bash -
+> sudo apt-get install -y nodejs
+> ```
 
 ---
 
@@ -69,17 +76,25 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan bot dari rep
 
 **1. Clone Repository**
 ```bash
-git clone https://github.com/fikystorez/Bot-WA-SimpleFeatures.git
+git clone [https://github.com/fikystorez/Bot-WA-SimpleFeatures.git](https://github.com/fikystorez/Bot-WA-SimpleFeatures.git)
 cd Bot-WA-SimpleFeatures
 ```
 
 **2. Install Dependencies**
 Pastikan kamu berada di dalam folder `Bot-WA-SimpleFeatures`, lalu jalankan:
 ```bash
-apt install npm
+npm install
 ```
 
-**3. Jalankan Bot**
+**3. Konfigurasi Bot**
+Buka file konfigurasi yang tersedia di dalam folder (biasanya `config.js`, `settings.json`, atau `.env`) lalu sesuaikan pengaturan seperti nomor Owner:
+```javascript
+// Contoh jika pengaturannya ada di dalam file JS/JSON
+global.owner = ['628xxxxxxxxxx'] // Ganti dengan nomor WhatsApp kamu
+global.botName = 'Bot DFS'
+```
+
+**4. Jalankan Bot**
 Setelah semua proses selesai, jalankan bot dengan perintah:
 ```bash
 npm start
@@ -96,3 +111,4 @@ Punya ide fitur baru atau menemukan *bug*? Jangan ragu untuk melakukan *Pull Req
 ## 📜 Credit
 Dikembangkan dan dikelola dengan ❤️ oleh **Digital Fiky Store**. 
 Jika kamu suka dengan project ini, jangan lupa berikan ⭐ (Star) pada *repository* ini!
+
