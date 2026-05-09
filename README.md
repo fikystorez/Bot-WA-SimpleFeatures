@@ -1,3 +1,7 @@
+<div align="center">
+
+<img src="https://telegra.ph/file/0b32e0a0bb07584f92700.png" alt="Bot Logo" width="150" />
+
 # 🤖 WhatsApp Bot by Digital Fiky Store
 
 > _Bot WhatsApp Multi-Fungsi yang elegan, cepat, dan mudah digunakan untuk manajemen grup serta utilitas harian._
@@ -61,9 +65,42 @@ Pastikan *environment* server atau perangkat kamu sudah memenuhi syarat berikut 
 
 ## 🚀 Cara Instalasi
 
-Ikuti langkah-langkah di bawah ini untuk menjalankan bot:
+Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan bot dari repository resmi:
 
 **1. Clone Repository**
 ```bash
-git clone [https://github.com/UsernameKamu/NamaRepoKamu.git](https://github.com/UsernameKamu/NamaRepoKamu.git)
-cd NamaRepoKamu
+git clone [https://github.com/fikystorez/Bot-WA-SimpleFeatures.git](https://github.com/fikystorez/Bot-WA-SimpleFeatures.git)
+cd Bot-WA-SimpleFeatures
+```
+
+**2. Install Dependencies**
+Pastikan kamu berada di dalam folder `Bot-WA-SimpleFeatures`, lalu jalankan:
+```bash
+npm install
+```
+
+**3. Konfigurasi Bot**
+Buka file konfigurasi yang tersedia di dalam folder (biasanya `config.js`, `settings.json`, atau `.env`) lalu sesuaikan pengaturan seperti nomor Owner:
+```javascript
+// Contoh jika pengaturannya ada di dalam file JS/JSON
+global.owner = ['628xxxxxxxxxx'] // Ganti dengan nomor WhatsApp kamu
+global.botName = 'Bot DFS'
+```
+
+**4. Jalankan Bot**
+Setelah semua proses selesai, jalankan bot dengan perintah:
+```bash
+npm start
+```
+> 💡 **Tip:** Setelah perintah dijalankan, akan muncul QR Code di terminal. Buka aplikasi WhatsApp di HP kamu > Perangkat Taut > Tautkan Perangkat > Scan QR Code tersebut.
+
+---
+
+## 🤝 Kontribusi
+Punya ide fitur baru atau menemukan *bug*? Jangan ragu untuk melakukan *Pull Request* atau membuka *Issue* di *repository* ini. Segala bentuk kontribusi sangat dihargai!
+
+---
+
+## 📜 Credit
+Dikembangkan dan dikelola dengan ❤️ oleh **Digital Fiky Store**. 
+Jika kamu suka dengan project ini, jangan lupa berikan ⭐ (Star) pada *repository* ini!
